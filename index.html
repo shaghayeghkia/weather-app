@@ -9,9 +9,18 @@
 <body>
     <div id="search">
         <img src="./img/location.png" alt="location icon" id="location">
-        <input type="text" placeholder="Enter city name">
+        <input type="text" placeholder="Enter city name" />
         <button>Search</button>
     </div>
-    <script src="./app.js"></script>
+<div id="weather"><span id="loader"></span></div>
+<div id="forecast"></div>
+<div id="modal">
+    <div>
+        <div><span id="modal_button">X</span></div>
+        <div><p></p></div>
+    </div>
+</div>
+
+    <script type="module" src="./app.js"></script>
 </body>
 </html>
